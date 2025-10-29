@@ -1,0 +1,56 @@
+<style>
+  
+{
+    box-sizing: border-box; /* Aturan CSS modern yang wajib ada */
+}
+
+   body {
+    height: 100%; 
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    /* Gunakan min-height di sini untuk memastikan ia selalu mengisi tinggi minimal, 
+       sekaligus height: 100% untuk mengikuti body */
+    min-height: 100vh; 
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    background: url(jsj.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+    
+    .card {
+      text-align: center;
+      margin: 15px;
+    }
+    
+    .card > img {
+      border-radius: 50%;
+    }
+    
+    .link {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 8px;
+    }
+    
+    a {
+      margin-right: 10px;
+      color: white;
+      background: linear-gradient(to right top, #412B6B, #6F00FF);
+      text-decoration: none;
+      padding: 6px;
+      border-radius: 5px;
+    }
+   
+     </style>
